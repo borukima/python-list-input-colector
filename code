@@ -3,9 +3,9 @@ while True:
   print ("danh sách a có:",a)
   o = input('thêm số? y:có n:không\n')
   if o == "y":
-    o = int (input("số thêm vào"))
+    o = int (input("số thêm vào\n"))
   else:
+    print("danh sách có:",a)
     break
-    print("danh sách có:",o)
   a.append(o)
-  print("danh sách có:",a )
+print("danh sách có:",a )
