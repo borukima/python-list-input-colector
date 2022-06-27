@@ -1,7 +1,7 @@
 a = []
 while True:
   print ("danh sách a có:",a)
-  o = input('thêm số? y:có n:không')
+  o = input('thêm số? y:có n:không\n')
   if o == "y":
     o = int (input("số thêm vào"))
   else:
