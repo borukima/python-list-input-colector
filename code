@@ -1,0 +1,11 @@
+a = []
+while True:
+  print ("danh sách a có:",a)
+  o = input('thêm số? y:có n:không')
+  if o == "y":
+    o = int (input("số thêm vào"))
+    print("đã thêm số : ",o ,"danh sách có:",a )
+  else:
+    break
+    print("danh sách có:",o)
+  a.append(o)
